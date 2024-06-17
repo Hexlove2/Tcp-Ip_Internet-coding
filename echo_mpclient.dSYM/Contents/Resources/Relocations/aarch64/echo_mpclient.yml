@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sunday/Desktop/Code/SocketLearning/Tcp-Ip_Internet-coding/echo_mpclient'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BB8, symSize: 0x140 }
+  - { offsetInCU: 0x7B, offset: 0x7B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BB8, symSize: 0x140 }
+  - { offsetInCU: 0xE9, offset: 0xE9, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x140, symBinAddr: 0x100003CF8, symSize: 0x24 }
+  - { offsetInCU: 0x111, offset: 0x111, size: 0x8, addend: 0x0, symName: _error_handling, symObjAddr: 0x164, symBinAddr: 0x100003D1C, symSize: 0x40 }
+  - { offsetInCU: 0x135, offset: 0x135, size: 0x8, addend: 0x0, symName: _write_routine, symObjAddr: 0x1A4, symBinAddr: 0x100003D5C, symSize: 0xB4 }
+  - { offsetInCU: 0x167, offset: 0x167, size: 0x8, addend: 0x0, symName: _read_routine, symObjAddr: 0x258, symBinAddr: 0x100003E10, symSize: 0x7C }
+...

@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sunday/Desktop/Code/SocketLearning/echo_mpserv'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B58, symSize: 0x260 }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B58, symSize: 0x260 }
+  - { offsetInCU: 0x154, offset: 0x154, size: 0x8, addend: 0x0, symName: _read_childproc, symObjAddr: 0x260, symBinAddr: 0x100003DB8, symSize: 0x4C }
+  - { offsetInCU: 0x194, offset: 0x194, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x2AC, symBinAddr: 0x100003E04, symSize: 0x24 }
+  - { offsetInCU: 0x1BC, offset: 0x1BC, size: 0x8, addend: 0x0, symName: _error_handling, symObjAddr: 0x2D0, symBinAddr: 0x100003E28, symSize: 0x40 }
+...
