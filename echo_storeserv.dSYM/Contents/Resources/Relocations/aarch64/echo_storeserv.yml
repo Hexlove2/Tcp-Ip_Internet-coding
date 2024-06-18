@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sunday/Desktop/Code/SocketLearning/Tcp-Ip_Internet-coding/echo_storeserv'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A58, symSize: 0x318 }
+  - { offsetInCU: 0x8E, offset: 0x8E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A58, symSize: 0x318 }
+  - { offsetInCU: 0x1AF, offset: 0x1AF, size: 0x8, addend: 0x0, symName: _read_childproc, symObjAddr: 0x318, symBinAddr: 0x100003D70, symSize: 0x4C }
+  - { offsetInCU: 0x1EF, offset: 0x1EF, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x364, symBinAddr: 0x100003DBC, symSize: 0x24 }
+  - { offsetInCU: 0x217, offset: 0x217, size: 0x8, addend: 0x0, symName: _error_handling, symObjAddr: 0x388, symBinAddr: 0x100003DE0, symSize: 0x40 }
+...
