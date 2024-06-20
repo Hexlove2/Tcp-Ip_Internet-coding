@@ -21,6 +21,6 @@ int main(int argc, char const *argv[])
     printf("Read bytes: %d \n", str_len);
     printf("First message: %s \n",buf1);
     printf("Second message: %s \n", buf2);
-    
+
     return 0;
 }
