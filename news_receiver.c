@@ -42,13 +42,13 @@ int main(int argc, char const *argv[])
     fflush(stdout); 
     while(1)
     {
-        printf("Waiting to receive data...\n");
-        fflush(stdout);  // 确保输出立即显示
+        //printf("Waiting to receive data...\n");
+        //fflush(stdout);  // 确保输出立即显示
         str_len=recvfrom(recv_sock, buf, BUF_SIZE-1,0,NULL,0);
         if(str_len<0)
         break;
         buf[str_len]=0;
-        printf("Received message: %s", buf);
+        //printf("Received message: %s", buf);
         fflush(stdout);  // 确保输出立即显示
     }
     close(recv_sock);
