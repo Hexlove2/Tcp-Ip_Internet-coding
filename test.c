@@ -41,3 +41,14 @@ void test2()
     FILE * fdopen(int fildes, const char * mode);
     int fileno(FILE * stream);
 }
+
+void test3()
+{
+    /*
+    int pthread_mutex_init(pthread_mutex_t * mutex, const pthread_mutexattr_t *attr);
+    int pthread_mutex_destroy(pthread_mutex_t *mutex);
+
+    int pthread_lock(pthread_mutex_t *mutex);
+    int pthread_unlock(pthread_mutex_t *mutex);
+    */    
+}
